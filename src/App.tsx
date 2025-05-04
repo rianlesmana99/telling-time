@@ -131,7 +131,7 @@ export default function App() {
                             ? question[random - 1].title
                             : "Random Question"}
                     </h1>
-                    <p className="text-center text-3xl">
+                    <p className="text-center text-2xl">
                         {random !== 0
                             ? question[random - 1].question
                             : "Please enter the random button!"}

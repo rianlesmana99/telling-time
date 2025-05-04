@@ -86,14 +86,14 @@ export default function App() {
                         alt="Clock"
                     />
                     <div
-                        className="h-[100px] 2xl:h-[180px] w-2 bg-blue-900 absolute left-[48.8%] bottom-[59.7%] sm:bottom-[58%] 2xl:bottom-[55%] md:left-[49.5%] lg:left-[49.3%] xl:left-[49.6%] 2xl:left-[49.7%] origin-bottom transition-all duration-100 z-10"
+                        className="h-[100px] 2xl:h-[180px] w-2 bg-blue-900 absolute left-[49%] bottom-[55%] sm:bottom-[58%] 2xl:bottom-[55%] md:left-[49.5%] lg:left-[49.3%] xl:left-[49.6%] 2xl:left-[49.7%] origin-bottom transition-all duration-100 z-10"
                         style={{ transform: `rotate(${minutes}deg)` }}
                     ></div>
                     <div
-                        className="h-[80px] 2xl:h-[120px] w-2 absolute bg-green-700 left-[48.8%] bottom-[59.7%] sm:bottom-[58%] 2xl:bottom-[55%] md:left-[49.5%] lg:left-[49.3%] xl:left-[49.6%] 2xl:left-[49.7%] origin-bottom transition-all duration-100"
+                        className="h-[80px] 2xl:h-[120px] w-2 absolute bg-green-700 left-[49%] bottom-[55%] sm:bottom-[58%] 2xl:bottom-[55%] md:left-[49.5%] lg:left-[49.3%] xl:left-[49.6%] 2xl:left-[49.7%] origin-bottom transition-all duration-100"
                         style={{ transform: `rotate(${hour}deg)` }}
                     ></div>
-                    <div className="w-6 h-6 2xl:w-7 2xl:h-7 bg-slate-900 rounded-[50%] absolute z-30 bottom-[58%] sm:bottom-[56.5%] 2xl:bottom-[53.5%] 2xl:left-[49.2%] left-[47.2%] md:left-[48.3%] xl:left-[49%]"></div>
+                    <div className="w-6 h-6 2xl:w-7 2xl:h-7 bg-slate-900 rounded-[50%] absolute z-30 bottom-[54%] sm:bottom-[56.5%] 2xl:bottom-[53.5%] 2xl:left-[49.2%] left-[47.2%] md:left-[48.3%] xl:left-[49%]"></div>
                 </div>
                 <div className="p-2 border-4 border-t-0 border-teal-800 flex justify-between items-center gap-4">
                     <button

@@ -16,7 +16,7 @@ import { BsCaretRightSquareFill } from "react-icons/bs";
 const question = [
     {
         title: "Question 1",
-        question: "Show me seven o'clock.",
+        question: "Show me seven oclock.",
     },
     {
         title: "Question 2",
@@ -131,7 +131,7 @@ export default function App() {
                             ? question[random - 1].title
                             : "Random Question"}
                     </h1>
-                    <p className="text-center text-2xl">
+                    <p className="text-center text-3xl">
                         {random !== 0
                             ? question[random - 1].question
                             : "Please enter the random button!"}

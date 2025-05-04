@@ -16,11 +16,11 @@ import { BsCaretRightSquareFill } from "react-icons/bs";
 const question = [
     {
         title: "Question 1",
-        question: "Show me seven oclock.",
+        question: "Show me seven o'clock.",
     },
     {
         title: "Question 2",
-        question: "Show me ten past four",
+        question: "Show me ten past  four",
     },
     {
         title: "Question 3",
